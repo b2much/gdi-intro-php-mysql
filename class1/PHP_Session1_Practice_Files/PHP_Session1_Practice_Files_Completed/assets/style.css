@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-color: #999;	
+}
+h1, h2, h3, h4, h5, h6{
+    color:#333;
+	padding:3px;
+}
+.wrapper{
+	background-color: #fff;
+	width: 1000px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.header{
+	width: 950px;
+	min-height: 50px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:right;
+	padding:5px;
+}
+.footer{
+	width: 950px;
+	min-height: 50px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #333;
+	margin-left: auto;
+	margin-right:auto;
+	padding:5px;
+	font-size:10px;
+}
+.left{
+	float: left;
+	
+}
+.content{
+	margin-top: 50px;
+	margin-right: 75px;
+	margin-bottom: 50px;
+	margin-left: 75px;	
+}
